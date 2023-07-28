@@ -1,0 +1,22 @@
+.accordion{
+    width:400px;
+    background-color: beige;
+    box-shadow: 1px 1px 2px 1px grey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.accordion-title{
+    display: flex;
+    padding:10px;
+    justify-content: space-between;
+}
+
+.accordion-details{
+    border-top: 2px solid green;
+    padding: 10px;
+}
+
+.toggle{
+    cursor: pointer;
+}
