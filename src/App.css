@@ -1,0 +1,17 @@
+::after,
+::before,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+  /* height: 400px; */
+  width: max-content;
+  margin: 20px auto;
+  padding: 10px;
+  /* border:1px solid red; */
+}
