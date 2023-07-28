@@ -1,0 +1,24 @@
+export function debounce(fn, delay = 300) {
+  let timer;
+  let self = this;
+
+  return function (...args) {
+    clearTimeout(timer);
+    timer = setTimeout(function () {
+      return fn.apply(self, [...args]);
+    }, delay);
+  };
+}
+
+export function memo(fn) {
+  const cache = {};
+  (function (...args) {
+    key = JSON.stringify(...args);
+    if (key in cache) {
+      return cache[key];
+    } else {
+      cache[key] = fn(...args);
+      return cache[key];
+    }
+  })();
+}
