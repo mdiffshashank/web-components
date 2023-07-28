@@ -1,0 +1,16 @@
+.highlight{
+    /* background-color: yellow; */
+    color: darkgoldenrod;
+}
+
+.star{
+    background-color: #fff;
+    border:none;
+    outline:none;
+    padding:5px;
+    /* box-shadow:1px 1px 1px 1px grey */
+}
+
+.container{
+    /* border:1px solid red; */
+}
